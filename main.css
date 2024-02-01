@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #ecf0f1;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+section {
+    padding: 16px 0;
+    background-color: #bac2da;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-left: 16px;
+}
+
+#campoA,
+#campoB {
+    margin-left: 16px;
+}
+
+#errorMessage,
+#successMessage {
+    margin-left: 16px;
+}
+
+#errorMessage {
+    background-color: red;
+    color: #fff;
+    width: 320px;
+}
+
+#successMessage {
+    background-color: green;
+    color: #fff;
+    width: 320px;
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}

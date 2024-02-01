@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário do exercício - Módulo JS</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Formulário de números</h1>
+            <h2>Escola Britânica de Artes Criativas e Tecnologia</h2>
+            <h3>Gabriel Pacheco da Silva Souza</h3>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <form id="meuFormulario">
+                <label for="campoA"><b>Campo A:</b></label>
+                <input type="number" id="campoA" name="campoA" required>
+        
+                <label for="campoB"><b>Campo B:</b></label>
+                <input type="number" id="campoB" name="campoB" required>
+        
+                <button type="button" onclick="validarFormulario()">Enviar</button>
+            </form>
+            <div id="mensagem" class="message"></div>
+        </div>
+    </section>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
